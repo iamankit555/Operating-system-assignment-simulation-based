@@ -232,4 +232,31 @@ int main()
 	}
 	return 0;
 }
+TEST CASES:
+/*Enter the number of processes  : 5
+
+Enter process_id , Arrival_time , Burst_time , prior for process 1 : 1 4 5 6
+
+Enter process_id , Arrival_time , Burst_time , prior for process 2 : 2 2 4 7
+
+Enter process_id , Arrival_time , Burst_time , prior for process 3 : 3 0 5 8
+
+Enter process_id , Arrival_time , Burst_time , prior for process 4 : 4 1 6 5
+
+Enter process_id , Arrival_time , Burst_time , prior for process 5 : 5 3 7 9
+
+===============================================
+
+process_id       Res_time     F_time          W_time
+
+1                 1             24             15
+
+2                 7             13             7
+
+3                 0             21             16
+
+4                 0             23             16
+
+5                 10            27             17
+*/
 .
